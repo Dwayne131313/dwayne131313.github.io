@@ -186,23 +186,18 @@ v<!DOCTYPE html>
         <h2>Primary Source: The Martial Law Declaration</h2>
         <p class="video-desc">Original broadcast footage of Ferdinand Marcos Sr. announcing Proclamation No. 1081 on September 23, 1972 — the moment Martial Law was made public to the Filipino people.</p>
         <div class="video-wrapper">
-            <video controls style="width:100%; height:100%;" poster="path/to/poster-image.jpg">
-                <source src="Videos/Martial_Law.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/HkDeu17nqTU" 
+                title="Martial Law Declaration" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
         </div>
         <span class="video-label">Source footage · September 23, 1972</span>
     </div>
 </div>
-
-    <script>
-        const iframe = document.getElementById('martial-law-video');
-        const placeholder = document.getElementById('video-placeholder');
-        if (iframe && iframe.src && iframe.src !== window.location.href) {
-            placeholder.style.display = 'none';
-        }
-    </script>
-    <script src="script.js" defer></script>
 </body>
 </html>
-<!-- gonna restart my vscode for a second-->
