@@ -275,9 +275,15 @@
                         A documentary clip about the life under Martial Law.
                     </p>
                     <div class="video-wrapper">
-                        <video controls style="width:100%; height: 100%;">
-                            <source src="Videos/lifeundermartiallaw.mp4" type="video/mp4">
-                        </video>
+                        <iframe 
+                            width="100%" 
+                            height="100%" 
+                            src="https://www.youtube.com/embed/YilnKzA8DCs" 
+                            title="Life under Martial Law" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
                     </div>
                     <span class="video-label">Archival footage · Society under Martial Law</span>
                 </div>
@@ -285,14 +291,5 @@
 
         </div>
     </div>
-
-    <script>
-        const iframe = document.getElementById('social-video');
-        const placeholder = document.getElementById('video-placeholder');
-        if (iframe && iframe.src && iframe.src !== window.location.href) {
-            placeholder.style.display = 'none';
-        }
-    </script>
-    <script src="script.js" defer></script>
 </body>
 </html>
